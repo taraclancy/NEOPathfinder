@@ -39,6 +39,10 @@ Sergio
 
 In parallel, develop an independent orbit-determination service that utilises the spacecraft-acquired data.​”
 
+<p align="center">
+  <img src="overview.png" width="250">
+</p>
+
 ---
 
 ## System Overview
