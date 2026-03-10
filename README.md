@@ -1,67 +1,75 @@
-# AEGIS  
-## Asteroid Exploration & Gravitational Interior Surveyor
+# NEO Pathfinder
+
+## Asteroid Exploration & Gravitational Interior Surveyor (AEGIS)
 
 Cranfield University Group Design Project
 
-## Mission Overview
-
-AEGIS investigates the feasibility of a mission that will rendezvous with multiple near-Earth asteroids (NEOs) to refine their orbital and physical properties, while demonstrating a controlled mitigation technique. In parallel, the project develops an independent orbit-determination service that uses spacecraft-acquired data. :contentReference[oaicite:1]{index=1}
+---
 
 ## Work Breakdown Structure
 
-### WP1000 — Systems
+### WP1000 – Systems
 Tara  
 Finn
 
-### WP2000 — Mission
+### WP2000 – Mission
 Pau M  
 Yogesh
 
-### WP3000 — Mechanical
+### WP3000 – Mechanical
 Pau C
 
-### WP4000 — Electrical
+### WP4000 – Electrical
 Mikolaj  
 Vignesh
 
-### WP5000 — Payload
+### WP5000 – Payload
 James  
 Jack  
 Gerard  
 Mael  
-Sergio :contentReference[oaicite:2]{index=2}
+Sergio
 
-## High-Level Requirements
+---
 
-### Functional Requirements
-- **REQ-F-001**: The mass and bulk density of the target NEO shall be determined to an accuracy of TBD% using gravimetric measurements collected over TBD days.
-- **REQ-F-002**: The spacecraft shall image the surface of each target asteroid with a camera capable of TBD spatial resolution at TBD km.
-- **REQ-F-003**: The scanning LIDAR should be able to produce at least 1 range point per square meter across the surface.
-- **REQ-F-004**: The mission shall quantify discrepancies between measured and modelled gravity fields to validate predictions.
-- **REQ-F-005**: The spacecraft shall demonstrate a controlled mitigation technique on the final target asteroid, deflecting it by 500 km via a total ΔV change of 1 mm/s.
-- **REQ-F-006**: An independent ground-based orbit-determination system shall be developed with the capability to estimate trajectories of NEOs with a position uncertainty of ±TBD km. :contentReference[oaicite:3]{index=3}
+## Functional Requirements
 
-### Operational Requirements
-- **REQ-O-007**: The mission operational duration shall be no less than TBD years.
-- **REQ-O-008**: The spacecraft shall support a data downlink rate no less than TBD Mbps over TBD contact windows.
-- **REQ-O-009**: The collected data shall be timestamped and contain data identifying the location and movements of the detected NEO(s).
-- **REQ-O-010**: The spacecraft shall transmit data collected within TBD s/hrs of detection.
-- **REQ-O-011**: The mission shall conduct sequential, data-collecting campaigns at both NEOs.
-- **REQ-O-012**: The orbit determination model shall detect and ingest new MPC data every hour. :contentReference[oaicite:4]{index=4}
+REQ-F-001: The mass and bulk density of the target NEO shall be determined to an accuracy of TBD% using gravimetric measurements collected over TBD days.
 
-### Constraints
-- **REQ-C-013**: The total mission budget shall not exceed 550 million EUR.
-- **REQ-C-014**: The spacecraft shall be designed, manufactured and tested within a period not exceeding 4 years.
-- **REQ-C-015**: The mission shall target two near-Earth asteroids of varying size or composition.
-- **REQ-C-016**: The orbit-determination model shall require TBD GB of RAM, TBD GB of storage and TBD CPU cores. :contentReference[oaicite:5]{index=5}
+REQ-F-002: The spacecraft shall image the surface of each target asteroid with a camera capable of TBD spatial resolution at TBD km.
 
-## Project Status
+REQ-F-003: The scanning LIDAR should be able to produce at least 1 range point per square meter across the surface.
 
-This repository contains project material for the AEGIS mission concept, including presentation content, requirements, and future project media.
+REQ-F-004: The mission shall quantify discrepancies between measured and modelled gravity fields to validate predictions.
 
-## Planned Additions
-- CONOPS graphic
-- CAD model render
-- MBSE operational analysis diagram
-- Mission animation
-- Subsystem requirements
+REQ-F-005: The spacecraft shall demonstrate a controlled mitigation technique on the final target asteroid, deflecting it by 500 km via a total ΔV change of 1 mm/s.
+
+REQ-F-006: An independent ground-based orbit-determination system shall be developed with the capability to estimate trajectories of NEOs with a position uncertainty of ±TBD km.
+
+---
+
+## Operational Requirements
+
+REQ-O-007: The mission operational duration shall be no less than TBD years.
+
+REQ-O-008: The spacecraft shall support a data downlink rate no less than TBD Mbps over TBD contact windows.
+
+REQ-O-009: The collected data shall be timestamped and contain data identifying the location and movements of the detected NEO(s).
+
+REQ-O-010: The spacecraft shall transmit data collected within TBD s/hrs of detection.
+
+REQ-O-011: The mission shall conduct sequential, data-collecting campaigns at both NEOs.
+
+REQ-O-012: The orbit determination model shall detect and ingest new MPC data every hour.
+
+---
+
+## Constraints
+
+REQ-C-013: The total mission budget shall not exceed 550 million EUR.
+
+REQ-C-014: The spacecraft shall be designed, manufactured and tested within a period not exceeding 4 years.
+
+REQ-C-015: The mission shall target two near-Earth asteroids of varying size or composition.
+
+REQ-C-016: The orbit-determination model shall require TBD GB of RAM, TBD GB of storage and TBD CPU cores.
