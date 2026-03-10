@@ -1,7 +1,9 @@
 # NEO Pathfinder
 
 ## Asteroid Exploration & Gravitational Interior Surveyor (AEGIS)
-![AEGIS Mission Patch](AEGIS.png)
+<p align="center">
+  <img src="AEGIS.png" width="250">
+</p>
 
 Cranfield University Group Design Project
 
