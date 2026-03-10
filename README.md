@@ -31,6 +31,22 @@ Mael
 Sergio
 
 ---
+## Mission Overview
+“Investigate the feasibility of a mission that will rendezvous with multiple near-Earth asteroids (NEOs) to refine their orbital & physical properties, while demonstrating a controlled mitigation technique. ​
+
+In parallel, develop an independent orbit-determination service that utilises the spacecraft-acquired data.​”
+
+---
+
+## System Overview
+[**INSERT CAD MODEL HERE**]
+[**INSERT TRAJECTORY HERE**]
+[**INSERT OPERATIONAL ANALYSIS DIAGRAM HERE**]
+---
+
+## CONOPS
+[**INSERT HERE**]
+---
 
 ## Functional Requirements
 
